@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <!-- Start Screen -->
-       <div class=" screen active " id="start-screen">
-          <h1>Quiz Time</h1>
+       <div class="screen " id="start-screen">
+          <h1>Quiz Time !</h1>
           <p>Test your knowledge with our fun quiz game!BY Question ..!! Good luck!</p>
           <button id="start-btn">Start Quiz</button>
        </div>
        <!-- Quiz Screen -->
-       <div class="screen" id="quiz -screen">
+       <div class="screen " id="quiz-screen">
 
             <!-- Quiz Header - ques  -->
             <div class ="quiz-header">
@@ -38,8 +39,8 @@
        </div>
 
          <!-- Result Screen -->
-          
-       <div class="screen" id="result-screen">
+
+       <div class="screen active" id="result-screen">
            <h1>Quiz Results</h1>
            <div class="result-info">
                 <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
